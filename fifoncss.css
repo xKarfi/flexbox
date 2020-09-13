@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+.container {
+	display: flex;
+	height: 100vh;
+    flex-basis: 100%;
+    flex-direction: column;
+}
+.row {
+    display: flex;
+	flex: 1;
+    flex-flow: wrap;
+    padding: 5px;
+	margin-bottom: 10px;
+}
+.flex-12 {
+    display: flex;
+    flex: 0 0 100%;
+    background-color: lightgray;
+}
+.flex-6 {
+    flex: 1;
+    background-color: aqua;
+	margin-right: 5px;
+}
