@@ -17,10 +17,50 @@ body {
 .flex-12 {
     display: flex;
     flex: 0 0 100%;
-    background-color: lightgray;
+    background-color: #CCCCCC;
 }
 .flex-6 {
     flex: 1;
-    background-color: aqua;
-	margin-right: 5px;
+    background-color: #ADADAD;
+}
+
+.flex-6:first-child{
+    margin-right: 5px;
+}
+.flex-12:first-child{
+    margin-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation-bar{
+    
+    
+}
+ul{
+        margin:0;
+        list-style-type:none;
+        
+}
+ul > li{
+    float:left;
+    padding: 5px;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 4vh;
+    background-color: #F9F5E3;
+    height:4vh;
+    width: 9vh;
+    
+}
+
+ul > li > a {
+   
+    text-decoration:none;
+    color: #292929;
+}
+
+li:hover{
+    background-color: #F1E7BC;
+    color:#0A0A0A;
 }
